@@ -25,7 +25,7 @@ optional arguments:
 ## Example
 
 ### Generating json data file having 10 Records
-
+```
 [root@apache-spark]$ python random_data_generator.py -f json 10
 
 INFO: Validating Arguments
@@ -39,10 +39,10 @@ INFO: Creating/Opening New /tmp/random_data.json
 INFO: Generating Random Data and Writing to /tmp/random_data.json
 
 INFO: Data Written Successfully to /tmp/random_data.json !!
-
+```
 
 ### Generating pipe separated data file having 10 Records
-
+```
 [root@apache-spark]$ python random_data_generator.py -f psv -s "|" 10
 
 INFO: Validating Arguments
@@ -56,10 +56,10 @@ INFO: Creating/Opening New /tmp/random_data.psv
 INFO: Generating Random Data and Writing to /tmp/random_data.psv
 
 INFO: Data Written Successfully to /tmp/random_data.psv !!
-
+```
 
 ### Generating tab separated data file having 10 Records
-
+```
 [root@apache-spark]$ python random_data_generator.py -f tsv -s $'\t' 10
 
 INFO: Validating Arguments
@@ -73,7 +73,7 @@ INFO: Creating/Opening New /tmp/random_data.tsv
 INFO: Generating Random Data and Writing to /tmp/random_data.tsv
 
 INFO: Data Written Successfully to /tmp/random_data.tsv !!
-
+```
 
 ## Contact
 
