@@ -15,8 +15,10 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+  
   -f FORMAT, --format FORMAT
                         Format of Data to be Generated
+                        
   -s SEPERATOR, --seperator SEPERATOR
                         Field Delimiter
 
