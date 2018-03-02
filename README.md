@@ -6,6 +6,9 @@ To generate a data file in JSON or any other format having N number of records s
 
 ## Usage
 
+spark-shell --packages JohnSnowLabs:spark-nlp:1.4.1
+pyspark --packages JohnSnowLabs:spark-nlp:1.4.1
+
 [root@apache-spark ]$ python random_data_generator.py -h
 
 usage: random_data_generator.py [-h] [-f FORMAT] [-s SEPERATOR] records
